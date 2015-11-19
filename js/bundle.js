@@ -25137,7 +25137,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function getRoutes() {
   return _react2.default.createElement(
     _reactRouter.Route,
-    { path: '/', component: _components.App },
+    { path: '/redux-simple-router-example', component: _components.App },
     _react2.default.createElement(_reactRouter.Route, { path: 'foo', components: { content: _components.Foo } }),
     _react2.default.createElement(_reactRouter.Route, { path: 'bar', components: { content: _components.Bar } })
   );

@@ -5,7 +5,7 @@
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -o dist/bundle.js -t [ babelify --presets [ es2015 react ] ] index.jsx",
+    "build": "browserify -o js/bundle.js -t [ babelify --presets [ es2015 react ] ] index.jsx",
     "example": "npm run build && node example/server.js"
   },
   "author": "Free Wortley <jw@freeqaz.com>",
