@@ -7,7 +7,7 @@ class App extends Component {
 
     const defaultContent = (
       <div className="page">
-        <img src="/images/download.png" />
+        <img src="./images/download.png" />
         <div className="centered-text">
           This is a simple example of how to use redux-simple-router.
           <br />
