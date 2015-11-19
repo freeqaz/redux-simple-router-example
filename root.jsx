@@ -5,7 +5,7 @@ import {Foo, Bar, App} from './components';
 
 export default function getRoutes() {
   return (
-    <Route path="/" component={App}>
+    <Route path="/redux-simple-router-example" component={App}>
       <Route path="foo" components={{content: Foo}}/>
       <Route path="bar" components={{content: Bar}}/>
     </Route>
