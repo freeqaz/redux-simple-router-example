@@ -6,7 +6,7 @@ To run this, simple `git clone` the repo and then run:
 
 ```npm install
 npm run example
-# Navigate to localhost:9001 to check it out!
+// Navigate to localhost:9001 to check it out!
 ```
 
 Thanks!
