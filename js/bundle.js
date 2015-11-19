@@ -283,7 +283,7 @@ var Header = (function (_Component) {
           { className: 'pure-menu pure-menu-horizontal' },
           _react2.default.createElement(
             _reactRouter.Link,
-            _extends({ to: '/' }, homeLinkStyle),
+            _extends({ to: '/redux-simple-router-example' }, homeLinkStyle),
             'Home'
           ),
           '>',
@@ -295,7 +295,7 @@ var Header = (function (_Component) {
               { className: 'pure-menu-item' },
               _react2.default.createElement(
                 _reactRouter.Link,
-                _extends({ to: '/foo' }, linkStyle),
+                _extends({ to: '/redux-simple-router-example/foo' }, linkStyle),
                 'Foo'
               )
             ),
@@ -304,7 +304,7 @@ var Header = (function (_Component) {
               { className: 'pure-menu-item' },
               _react2.default.createElement(
                 _reactRouter.Link,
-                _extends({ to: '/bar' }, linkStyle),
+                _extends({ to: '/redux-simple-router-example/bar' }, linkStyle),
                 'Bar'
               )
             )

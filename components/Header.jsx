@@ -16,15 +16,15 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="pure-menu pure-menu-horizontal">
-          <Link to="/" {...homeLinkStyle}>Home</Link>
+          <Link to="/redux-simple-router-example" {...homeLinkStyle}>Home</Link>
           {'>'}
           <ul className="pure-menu-list">
             <li className="pure-menu-item">
-              <Link to="/foo" {...linkStyle}>Foo</Link>
+              <Link to="/redux-simple-router-example/foo" {...linkStyle}>Foo</Link>
             </li>
 
             <li className="pure-menu-item">
-              <Link to="/bar" {...linkStyle}>Bar</Link>
+              <Link to="/redux-simple-router-example/bar" {...linkStyle}>Bar</Link>
             </li>
           </ul>
         </div>
