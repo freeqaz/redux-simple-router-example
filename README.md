@@ -6,10 +6,10 @@ Feel free to critique this via opening an issue or sending me a PR.
 
 To run this, simply `git clone` the repo and then run:
 
-```javascript
+```shell
 npm install
 npm run example
-// Navigate to localhost:9001 to check it out!
+# Navigate to localhost:9001 to check it out!
 ```
 
 Thanks!
