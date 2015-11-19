@@ -12,6 +12,7 @@ import getRoutes from './root.jsx';
 const reducer = combineReducers(Object.assign({}, reducers, {
   routing: routeReducer
 }));
+
 const store = createStore(reducer);
 const history = createBrowserHistory();
 
