@@ -41,7 +41,7 @@ var App = (function (_Component) {
       var defaultContent = _react2.default.createElement(
         'div',
         { className: 'page' },
-        _react2.default.createElement('img', { src: './images/download.png' }),
+        _react2.default.createElement('img', { src: '/redux-simple-router-example/images/download.png' }),
         _react2.default.createElement(
           'div',
           { className: 'centered-text' },
@@ -102,7 +102,7 @@ var Bar = (function (_Component) {
       return _react2.default.createElement(
         "div",
         { className: "page" },
-        _react2.default.createElement("img", { src: "./images/bar.gif" }),
+        _react2.default.createElement("img", { src: "/redux-simple-router-example/images/bar.gif" }),
         _react2.default.createElement(
           "div",
           { className: "centered-text" },
@@ -153,7 +153,7 @@ var Foo = (function (_Component) {
       return _react2.default.createElement(
         "div",
         { className: "page" },
-        _react2.default.createElement("img", { src: "./images/foo-fighters-logo.png" }),
+        _react2.default.createElement("img", { src: "/redux-simple-router-example/images/foo-fighters-logo.png" }),
         _react2.default.createElement(
           "div",
           { className: "centered-text" },

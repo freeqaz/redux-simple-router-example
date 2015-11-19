@@ -4,7 +4,7 @@ class Foo extends Component {
   render() {
     return (
       <div className="page">
-        <img src="./images/foo-fighters-logo.png" />
+        <img src="/redux-simple-router-example/images/foo-fighters-logo.png" />
         <div className="centered-text">\m/</div>
       </div>
     );

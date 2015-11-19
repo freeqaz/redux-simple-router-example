@@ -4,7 +4,7 @@ class Bar extends Component {
   render() {
     return (
       <div className="page">
-        <img src="./images/bar.gif" />
+        <img src="/redux-simple-router-example/images/bar.gif" />
         <div className="centered-text">Ouch!</div>
       </div>
     );
