@@ -21,6 +21,13 @@
       color: black;
     }
   </style>
+  <script>
+    {{#if devTools}}
+      window.__DEVTOOLS = true;
+    {{^}}
+      window.__DEVTOOLS = false;
+    {{/if}}
+  </script>
 </head>
 <body>
   <div id="mount"></div>
