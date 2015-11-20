@@ -1,6 +1,6 @@
 # redux-simple-router-example
 This is a simple example of how to use redux-simple-router.
-Feel free to critique this via opening an issue or sending me a PR.
+Feel free to critique this via opening an issue or sending a PR.
 
 ![Screenshot](https://i.imgur.com/I4FWtez.png)
 
