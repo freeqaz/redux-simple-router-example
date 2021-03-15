@@ -1,7 +1,7 @@
 {
   "name": "test-redux-simple-router",
   "version": "1.0.0",
-  "description": "This is a simple example of how to use redux-simple-router.",
+  "description": "This is a simple example of how to use redux-simple-router. 2",
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
